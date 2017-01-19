@@ -1,7 +1,8 @@
 $(document).ready (function(){
+var wikiUrl = "https://en.wikipedia.org/w/api.php?action=query&format=json&origin=*&list=search&srsearch=racing&srwhat=text"
 
 $("#searchWiki").click(function(){
-    $.getJSON("https://random-quote-generator.herokuapp.com/api/quotes/random", function( data ){
+    $.getJSON("https://en.wikipedia.org/w/api.php?action=query&format=json&origin=*&list=search&srsearch=racing&srwhat=text", function( data ){
        var items = [];
        console.log(data);
       $.each( data, function(key, val) {
