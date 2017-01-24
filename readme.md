@@ -1,4 +1,4 @@
-# My WikiSearch tool for FreeCodeCamp
+# My Wiki Viewer tool for FreeCodeCamp
 
 ### Working
 + Random button is working.
