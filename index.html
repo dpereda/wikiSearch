@@ -8,15 +8,19 @@
 
 <div class = "container-fluid" >
   <h2 class ="text-center">WIKI VIEWER</h2>
+      <div align="center">
+        <form id="searchBox">
+          Search Wikipedia: <input type="text" name="searchQ" placeholder="Search Term" required>
+        </form>
+        <div align="centr">
+            <button class="btn btn-primary" id="searchWiki"> Search</button>
+            <a id="randomLink" href="https://en.wikipedia.org/wiki/Special:Random" target="_blank" >
+            <button class="btn btn-primary" id="randomBtn"> Random article</button>
+            </a>
+          </div>
+      </div>
 
       <div id="wikiIT"  class = "well">
       </div>
-        <div class = "col-xs-12">
-
-        <button class="btn btn-primary center-block" id="searchWiki"> Search</button>
-          <a id="randomLink" href="https://en.wikipedia.org/wiki/Special:Random" target="_blank" >
-            <button class="btn btn-primary center-block" id="randomBtn"> Random article</button>
-          </a>
-          <a href="https://en.wikipedia.org/wiki/Motorcycle racing" target="_blank"> Linky </a>
 
 </div>
